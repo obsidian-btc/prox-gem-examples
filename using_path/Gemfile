@@ -1,0 +1,7 @@
+require_relative 'prox_gem'
+
+source 'https://rubygems.org'
+
+# Because PROX_GEM_MODE == path, looks in PROX_GEM_DIR
+# See ../set-env-vars.sh, and ./set-env-vars.sh
+prox_gem 'some_gem'
